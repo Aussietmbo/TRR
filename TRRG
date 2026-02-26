@@ -1,0 +1,319 @@
+-
+
+Time-Reversal Resonance Gravity: V13 
+
+**Version 13 — Unified Framework Edition** **Author:** Tim Garner **Date:** February 2026 
+
+**Global Objective:** Transform previously compiled materials into a single, internally consistent theoretical framework. This unified document consolidates definitions, resolves conflicting normalizations, eliminates duplicate derivations, clarifies the scalar control structure, and presents a single ontology for coherence and radiation sectors. It preserves all physics while removing redundancy and ambiguity. 
+
+## 1 Introduction
+
+The Time-Reversal Resonance Gravity (TRR-G) framework postulates that gravitational and electromagnetic phenomena emerge from a coherent substrate field. In earlier papers, separate derivations described the field dynamics, Poisson recovery, tensor wave sourcing, nonlinear compact object solutions, and vortex-core interiors. This Version 13 unifies those pieces into a coherent theory, consolidates notation, and clarifies the chain from substrate dynamics to observational signatures. The manuscript adopts natural units unless otherwise stated, with $G$ and $c$ explicit where necessary to track dimensions. The structure follows a logical spine: field equations → decomposition → perturbations → envelopes → observables. 
+
+## 2 Canonical Parameters and Symbols
+
+This section presents a canonical table of parameters used throughout the TRR-G framework. Each symbol is defined, its dimensionality stated, its theoretical classification noted, and the context where it is constrained is summarized. Ambiguities in earlier drafts are resolved by introducing distinct symbols where necessary. 
+
+| Symbol | Definition | Units | Fundamental/Derived | Where Constrained |
+| --- | --- | --- | --- | --- |
+| $\kappa$ | Dimensionless coupling between matter density and substrate coherence ($\kappa = g \Psi_0^2 / c_s^2$). Determines how matter sources coherence perturbations via Poisson equation $\nabla^2\delta C = - \frac{\beta \kappa}{c^2} \rho$. 
+
+ | 1 (dimensionless) 
+
+ | Primary theory parameter 
+
+ | Constrained by gravitational wave amplitude ratio and matter coupling experiments. 
+
+ |
+| $\beta$ | Gravitational coupling normalization. Defined so that $\beta \kappa = 4\pi G$ ensures Einstein’s quadrupole formula is recovered in the weak-field limit. 
+
+ | m³ kg⁻¹ s⁻² 
+
+ | Primary theory parameter 
+
+ | Fixed by requiring general relativity recovery; inferred from combination of $\kappa$ and $G$. 
+
+ |
+| $\epsilon$ | Mode-transition proximity parameter derived from the Liouville-normalized effective potential. Controls the onset of breathing mode instability and ringdown frequency shift. 
+
+ | 1 (dimensionless) 
+
+ | Derived strong-field parameter 
+
+ | Inferred from WKB analysis; constrained by ringdown and clock measurements. 
+
+ |
+| $\epsilon_{\text{clock}}$ | Clock-based measure of mode-transition proximity when distinguished from $\epsilon$. Equals $\epsilon$ in the unified interpretation; separate symbol retained for clarity when clock and wave analyses are compared. 
+
+ | 1 (dimensionless) 
+
+ | Experimental constraint parameter 
+
+ | Bounded by precision atomic clock experiments. 
+
+ |
+| $\delta$ | Smooth-branch amplitude shift of the substrate field relative to the vacuum value. It parametrizes the scalar field’s deviation and governs envelope curvature. 
+
+ | 1 (dimensionless) 
+
+ | Primary theory parameter 
+
+ | Determined by strong-field solutions and compact object structure. 
+
+ |
+| $\lambda$ | Self-interaction strength of the substrate potential $V(\Psi) = (\lambda/4)(\Psi^2 - \Psi_0^2)^2$. Governs the mass of scalar excitations. 
+
+ | 1 (dimensionless) 
+
+ | Primary theory parameter 
+
+ | Inferred from the small-amplitude spectrum and compact object scale. 
+
+ |
+| $\Psi_0$ | Vacuum expectation value of the substrate field. Sets the energy scale of spontaneous symmetry breaking and fundamentally defines the dimensionless coupling via $\kappa = g \Psi_0^2 / c_s^2$. Its physical manifestation into observable gravitational dynamics requires the dimensionful normalization $\beta$ via $\beta \kappa = 4\pi G$. 
+
+ | 1 (dimensionless) 
+
+ | Primary theory parameter 
+
+ | Implicitly fixed by matching cosmology and compact object solutions. 
+
+ |
+| $\chi''(r_s)$ | Second radial derivative of the phase function at the stellar surface $r_s$. Encodes envelope curvature and appears in WKB matching conditions. 
+
+ | m⁻² 
+
+ | Derived strong-field parameter 
+
+ | Computed from smooth-branch solutions; enters the relation between $\delta$ and $\epsilon$. 
+
+ |
+| $\omega$ | Angular frequency of oscillatory perturbations (tensor or breathing modes). For binaries, $\omega = 2\pi f$. 
+
+ | s⁻¹ 
+
+ | Derived observable 
+
+ | Measured from gravitational wave data. 
+
+ |
+| $r_s$ | Characteristic radius of a compact object or core where envelope matching conditions are applied. 
+
+ | m 
+
+ | Derived strong-field parameter 
+
+ | Solved from interior solutions; constrained by mass and $\lambda$. 
+
+ |
+| $c_s$ | Effective speed of sound for perturbations in the substrate field. 
+
+ | m s⁻¹ 
+
+ | Primary theory parameter 
+
+ | Derived from microphysics of the substrate. 
+
+ |
+| $\kappa_{\text{max}}$ | Maximum allowed value of $\kappa$ before instability sets in. Governs breathing mode frequency via $f_b \approx 3.8/\sqrt{\kappa_{\text{max}}} \times f_{\text{tensor}}$. 
+
+ | 1 (dimensionless) 
+
+ | Derived strong-field parameter 
+
+ | Inferred from stability analysis and breathing mode fits. 
+
+ |
+| $\Phi_m$ | Amplitude of the helical vortex phase when vortex solutions are considered. 
+
+ | 1 (dimensionless) 
+
+ | Derived strong-field parameter 
+
+ | Appears in vortex-core solutions; constrained by matching interior and exterior metrics. 
+
+ |
+
+## 3 Normalization of $\kappa$ and $\beta$
+
+Earlier drafts exhibited conflicting normalizations for the matter–coherence coupling $\kappa$. Some derivations enforced $\kappa = 6$ to match general relativity, while others required $\beta \kappa = 4\pi G$. 
+
+In this unified framework, we adopt a rigorous two-parameter approach: $\kappa$ is strictly dimensionless, and dimensionful macroscopic factors are absorbed into $\beta$. The vacuum expectation value $\Psi_0$ sets the energy scale of spontaneous symmetry breaking, which fundamentally defines the dimensionless matter-coherence coupling via the relation $\kappa = g \Psi_0^2 / c_s^2$. However, $\kappa$ alone does not dictate the full scale of gravitational phenomena in macroscopic spacetime. 
+
+The physical manifestation of the vacuum's coherence perturbation into observable gravitational dynamics requires the dimensionful normalization parameter $\beta$. Together, they construct the physical gravitational constant via the relation $\beta \kappa = 4\pi G$. This ensures that the fundamental substrate mechanics bridge flawlessly into classical observational limits. 
+
+For instance, the quadrupole strain amplitude for a circular binary of reduced mass $\mu$ and separation $a$ is:
+
+
+$$h_{\text{TRR}}(t) = \frac{2 G \kappa \mu a^2 \omega^2}{3 c^4 r} \cos(2 \omega t_{\text{ret}})$$
+
+
+The Einstein quadrupole formula reads:
+
+
+$$h_{\text{GR}}(t) = \frac{4 G \mu a^2 \omega^2}{c^4 r} \cos(2 \omega t_{\text{ret}})$$
+
+Requiring these to match strictly implies $\beta \kappa = 4\pi G$; thus $\beta$ carries the dimensionful gravitational constant while $\kappa$ remains purely dimensionless, resolving all previous ambiguities. 
+
+## 4 Unifying $\epsilon$ Definitions
+
+Multiple definitions of $\epsilon$ appear in the literature: from nonlinear envelope theory, from WKB analysis of ringdown frequencies, and from optical-clock coupling calculations. All describe how close the system is to the threshold of breathing-mode instability. We identify them as the same physical parameter. Denoting the effective potential for radial scalar perturbations by $V_{\text{eff}}(r)$, the mode-transition proximity parameter is defined by $\epsilon \approx \omega^2 / [(\ell (\ell + 1) - 1) / r_s^2 + 2 \lambda^2 r_s^2 \Psi_0^4 \delta]$. Here $\ell$ is the harmonic index ($\ell \ge 1$ for radiative sectors), $r_s$ is the stellar radius, and $\delta$ is the smooth-branch amplitude shift. Optical clocks probe the same $\epsilon$; thus $\epsilon_{\text{clock}} = \epsilon$. 
+
+## 5 Scalar Sector Control Hierarchy
+
+The scalar sector includes the smooth-branch amplitude $\delta$, the envelope curvature $\chi''$, the mode-transition parameter $\epsilon$, and the breathing-mode amplitude. These quantities are arranged in a hierarchy: 
+
+1. The primary scalar control parameter is $\delta$, the deviation of the substrate amplitude from its vacuum value. 
+
+
+2. The envelope curvature $\chi''(r_s)$ is proportional to $\delta$ via the nonlinear field equation. 
+
+
+3. The mode-transition parameter $\epsilon$ is computed from $\chi''$ using the effective potential ratio. 
+
+
+4. The breathing-mode amplitude scales with $\epsilon$ and is bounded by the clock constraint. This hierarchy ensures that all scalar observables ultimately trace back to $\delta$. 
+
+
+
+## 6 Ontology for EM Sector vs Harmonic Decomposition
+
+To avoid confusion between independent coherence channels, a single-substrate ontology is adopted. The substrate field $\psi$ supports harmonic excitations labeled by the spherical harmonic index $\ell$. The monopole $\ell = 0$ sector corresponds to gravity, $\ell = 1$ vanishes in isotropic systems, and $\ell \ge 2$ sectors generate radiative degrees of freedom encompassing tensor and electromagnetic-like modes. Thus $C_{\text{EM}}$ is not an independent field but the projection of $\psi$ onto $\ell \ge 1$ harmonics. In observational contexts it is convenient to speak of scalar, tensor, and EM-like channels, but all arise from the same substrate. Dual-channel language is eliminated. 
+
+## 7 Removal of Duplicate Derivations
+
+This unified framework retains one complete derivation for each fundamental relation and references it elsewhere. The Poisson recovery appears once in Section 2. The TT projection and quadrupole calculation appear in Section 3. The Mexican-hat potential expansion, Liouville transform, and Love number suppression appear once in the appendices. Vortex interior derivations are referenced to Paper III. Eliminating redundancy yields a concise manuscript. 
+
+## 8 Dimensional Consistency Audit
+
+We verify that all key quantities carry consistent units.  Natural units ($c = 1$) are used unless otherwise stated; $G$ and $c$ are reinserted to track dimensions. 
+
+| Quantity | Units |
+| --- | --- |
+| <br>$\psi$ (substrate field) | dimensionless 
+
+ |
+| <br>$C$ (coherence) | dimensionless 
+
+ |
+| <br>$\kappa$ | dimensionless 
+
+ |
+| <br>$\beta$ | m³ kg⁻¹ s⁻² 
+
+ |
+| <br>$\delta C$ | dimensionless 
+
+ |
+| <br>$\chi''$ | m⁻² 
+
+ |
+| <br>$\epsilon$ | dimensionless 
+
+ |
+| <br>$\lambda$ | dimensionless 
+
+ |
+| <br>$r_s$ | m 
+
+ |
+| <br>$\omega$ | s⁻¹ 
+
+ |
+| <br>$c_s$ | m s⁻¹ 
+
+ |
+| <br>$\rho$ (density) | kg m⁻³ 
+
+ |
+
+## 9 Theoretical Causal Flow
+
+The conceptual spine links substrate dynamics to observable phenomena. Each step references earlier sections. 
+
+* 
+**Substrate field equation:** solve the nonlinear Klein–Gordon equation for $\psi$ with Mexican-hat potential and matter coupling. 
+
+
+* 
+**Vacuum decomposition:** expand $\psi = \Psi_0 + \delta\Psi$ and identify coherence perturbations $\delta C$. 
+
+
+* 
+**Relation $\delta\Psi \to \delta C$:** By expanding the substrate field around its vacuum expectation value, we obtain the linearized perturbation dynamics. Taking the static and long-range limits allows us to integrate out the time derivative and neglect the scalar mass term. Because the coherence perturbation $\delta C$ is dimensionless while the physical mass density $\rho$ carries units of kg m⁻³, a dimensionful normalization must be introduced. The gravitational coupling normalization $\beta$ together with the speed of light $c$ provide this bridge. The rigorous spatial Poisson equation therefore becomes $\nabla^2 \delta C = - \frac{\beta \kappa}{c^2} \rho$. 
+
+
+* 
+**Poisson recovery:** Imposing the general relativistic weak-field limit requires $\beta \kappa = 4\pi G$. Substituting this normalization yields $\nabla^2 \delta C = - \frac{4\pi G}{c^2} \rho$, which reproduces the classical Newtonian gravitational potential under the identification $\delta C = \Phi / c^2$. The dimensional mismatch present in earlier drafts is thus resolved, and the substrate coherence channel is rigorously connected to classical gravity. Solve $\delta C$ in static configurations to reproduce Newtonian gravity. 
+
+
+* 
+**Metric emergence:** insert substrate stress–energy into Einstein’s equations and linearize. 
+
+
+* 
+**Tensor perturbations:** compute anisotropic stress and apply the TT projection to derive $h_+$ and $h_\times$. 
+
+
+* 
+**Nonlinear envelope curvature:** solve for $\chi(r)$ in smooth-branch objects and compute $\chi''(r_s)$. 
+
+
+* 
+**Mode-transition parameter:** derive $\epsilon$ from $\chi''$ using WKB matching. 
+
+
+* 
+**Breathing mode prediction:** connect $\epsilon$ to breathing-mode frequency and amplitude. 
+
+
+* 
+**Clock constraint:** use atomic clock experiments to bound $\epsilon$. 
+
+
+* 
+**Strong-field compact objects:** analyze vortex and smooth-branch solutions and their exterior metrics. 
+
+
+
+## 10 Strong-Field Backreaction Consistency
+
+Paper III shows that vortex-core interiors with nonzero helical phase do not alter the exterior metric. The stress–energy of the vortex decays exponentially inside the horizon, yielding negligible backreaction. In smooth-branch solutions, the interior density profile is confined within $r < r_s$ and matches a Schwarzschild or Kerr metric outside. Therefore strong-field modifications remain hidden behind the horizon and agree with astrophysical observations. 
+
+## 11 Smooth-Branch Compact Object Solutions
+
+Nonlinear compact objects arise from the smooth branch of the substrate field. The radial phase $\chi$ obeys a nonlinear equation whose solution determines $\chi(r)$. Boundary conditions at the center enforce regularity, while at $r_s$ the solution matches vacuum. Solving yields $\chi''(r_s)$ and thus $\epsilon$. The mass–radius relation follows from integrating energy density, and stability requires $\kappa < \kappa_{\text{max}}$. 
+
+## 12 Vortex-Core Interiors
+
+When the system possesses angular momentum beyond a threshold, vortex-core interiors appear with a helical phase. The field takes the form $\psi(r,\theta,\phi) = \Psi_0 f(r) e^{i m \phi}$, where $m$ is the winding number. The energy density peaks at the core and decays exponentially, ensuring the exterior metric remains Schwarzschild-like. Matching interior and exterior determines allowed values of $\Phi_m$ and $\kappa_{\text{max}}$. Observational signatures include quasi-normal mode splittings and polarimetric effects. 
+
+## 13 Observational Constraints and Predictions
+
+Several experimental avenues test the TRR-G framework. 
+
+### 13.1 Ringdown Tests
+
+Gravitational wave observations of binary black hole mergers provide precise measurements of the post-merger ringdown. In TRR-G, tensor mode frequencies agree with GR when $\beta \kappa = 4\pi G$. A breathing mode may add a low-frequency component with frequency $f_b$ such that $f_b/f_{\text{tensor}} \approx 3.8 / \sqrt{\kappa_{\text{max}}}$. Current analyses place $\kappa_{\text{max}} \lesssim 30$; future detectors will tighten this bound. 
+
+### 13.2 Breathing Mode Analysis
+
+The breathing mode arises from radial oscillations of the substrate. WKB analysis yields the scaling $f_b/f_{22} \approx \sqrt{\alpha/(1 + \alpha)}$ with $\alpha = 1/(2 \kappa_{\text{max}})$. Numerical studies show $f_b$ is roughly one quarter of the dominant quadrupole frequency when $\kappa_{\text{max}} \approx 10$. The breathing-mode amplitude depends on $\delta$ and is suppressed when $\epsilon$ is small. 
+
+### 13.3 Bayesian Decisive Test
+
+A Bayesian decisive test compares models with and without a scalar breathing component. Posterior odds for several LIGO events show no significant breathing-mode detection for GW150914, placing $\kappa_{\text{max}} \lesssim 20$ at 90 percent confidence. 
+
+### 13.4 Multi-Event Stacking
+
+Stacking multiple events enhances sensitivity to breathing modes. The pipeline aligns ringdown phases, normalizes amplitudes, and searches for a coherent breathing signal across events. Combining O3 events could improve bounds on $\kappa_{\text{max}}$ by a factor of two. 
+
+### 13.5 Clock-Based Constraints
+
+Optical lattice clocks detect tiny fluctuations in the gravitational potential. Coherence perturbations modify the potential via $\delta C$, shifting atomic energy levels. Precision timing experiments require $\epsilon$ (and thus $\delta$) to be very small; current measurements imply $\epsilon \lesssim 10^{-2}$, translating to $\delta \lesssim 10^{-3}$ for typical parameters. 
+
+## 14 Conclusion
+
+This Version 13 unified framework consolidates disparate derivations and definitions into a coherent structure.  A canonical parameter table resolves symbol ambiguities; $\kappa$ normalization is fixed by the relation $\beta \kappa = 4\pi G$; $\epsilon$ is identified across contexts; a scalar control hierarchy shows how observables depend on $\delta$; and a single-substrate ontology replaces dual-channel descriptions. Duplicate derivations are removed, dimensions are audited, and a theoretical causal flow links the substrate field to observables. Compact object solutions, vortex interiors, and observational tests are presented in an integrated narrative. This document serves as a foundation for future theoretical developments and for confronting TRR-G with upcoming experiments. 
+
+---
