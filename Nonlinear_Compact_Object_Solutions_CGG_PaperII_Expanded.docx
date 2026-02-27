@@ -1,0 +1,155 @@
+# Nonlinear Compact Object Solutions in Coherence Gradient Gravity
+
+Paper II: Smooth-Branch Nonlinear Compact Object Structure
+
+## Abstract
+
+We develop the nonlinear compact-object sector of Coherence Gradient
+Gravity (CGG) by deriving strong-field solutions directly from the
+scalar coherence field equation. Unlike phenomenological horizon models,
+the present work imposes horizon regularity and derives the near-horizon
+envelope structure from the nonlinear dynamics of the Mexican-hat
+potential. We demonstrate that smooth solutions form a
+General-Relativity-stable basin in which strong-field deviations are
+bounded by the log-curvature of the coherence envelope. The
+mode-transition proximity parameter ε is shown to be fully determined by
+nonlinear background derivatives, eliminating ad hoc reflectivity or
+cavity parameters.
+
+## 1. Introduction
+
+Coherence Gradient Gravity models gravitational dynamics as emergent
+phenomena arising from gradients in a scalar coherence substrate. Paper
+I established weak-field consistency and amplitude-decoupling recovery
+of General Relativity (GR). The present work addresses the nonlinear
+compact-object regime and derives strong-field structure from first
+principles.
+
+## 2. Scalar Field Architecture
+
+We consider a complex scalar coherence field ψ with Mexican-hat
+potential:
+
+V(Ψ) = (λ/4)(Ψ² − Ψ₀²)².
+
+Using the ansatz ψ(t,r) = Ψ(r)e\^{-iω_c t}, the physical coherence is
+C(r)=Ψ²(r). The static radial background equation in Schwarzschild
+coordinates is:
+
+(1/r²) d/dr ( r² f(r) Ψ\'(r) ) − V\'(Ψ) = 0, f(r) = 1 − r_s/r.
+
+## 3. Near-Horizon Regularity
+
+Expanding near r = r_s with r = r_s + x and f(r) ≈ x/r_s, regularity
+yields boundary constraints:
+
+Ψ\'\_s = r_s V\'(Ψ_s).
+
+Ψ\'\'\_s = (r_s / 2) V\'\'(Ψ_s) Ψ\'\_s.
+
+## 4. Smooth-Branch Expansion
+
+Let Ψ_s = Ψ₀(1 + δ), \|δ\| ≪ 1. For the Mexican-hat potential, this
+gives:
+
+Ψ\'\_s ≈ 2λ r_s Ψ₀³ δ.
+
+Ψ\'\'\_s ≈ 2λ² r_s² Ψ₀⁵ δ.
+
+The log-curvature invariant χ = ln C = 2 ln Ψ gives:
+
+χ\'\'(r_s) ≈ 4λ² r_s² Ψ₀⁴ δ.
+
+## 5. Mode-Sector Wave Mechanics
+
+Linearizing phase perturbations and performing a Liouville transform
+yields a Schrödinger-form radial equation with effective potential:
+
+V_env(r_s) = −1/r_s² + (1/2)χ\'\'(r_s).
+
+The turning-point proximity parameter becomes:
+
+ε ≈ ω² / \[ (ℓ(ℓ+1) − 1)/r_s² + 2λ² r_s² Ψ₀⁴ δ \].
+
+## 6. Smooth Basin and Stability
+
+For δ ≥ 0, the denominator increases, yielding the upper bound:
+
+ε ≤ ω² r_s² / (ℓ(ℓ+1) − 1).
+
+Thus smooth nonlinear solutions naturally suppress strong-field
+deviations without requiring imposed cavity boundaries.
+
+## 7. Global Nonlinear Structure
+
+Numerical integration of the envelope equation with smooth boundary
+conditions shows monotonic relaxation toward vacuum amplitude Ψ₀ at
+large r. No internal nodes or sharp barriers appear for δ ≥ 0. The
+compact object therefore exhibits a Kerr-like exterior while maintaining
+regular interior coherence behavior.
+
+## 8. Implications and Outlook
+
+The nonlinear structure derived here demonstrates that strong-field
+behavior in CGG is controlled by envelope curvature rather than ad hoc
+horizon reflectivity. Future work will integrate full metric
+backreaction and explore stability of rotating solutions.
+
+## 9. Stability Lemma: Exclusion of the δ \< 0 Branch
+
+Lemma. For smooth nonlinear compact-object solutions of the coherence
+field, the branch δ \< 0 leads to enhanced log-curvature at the horizon
+and destabilizes the smooth envelope solution.
+
+Proof (Sketch). From the near-horizon expansion, the log-curvature
+invariant is:
+
+χ\'\'(r_s) ≈ 4 λ² r_s² Ψ₀⁴ δ.
+
+For δ \< 0, χ\'\'(r_s) becomes negative, reducing the denominator in the
+mode-transition parameter ε and inflating ε beyond the smooth Kerr-like
+limit. This increases effective barrier strength and reintroduces
+horizon-sensitive behavior incompatible with observed strong-field
+transparency.
+
+Therefore, δ ≥ 0 defines the dynamically stable basin for compact-object
+solutions.
+
+## 10. Numerical Scaling Example
+
+Consider a fiducial stellar-mass compact object with r_s = 30 km and
+dominant quadrupole mode ℓ = 2. For ℓ = 2, ℓ(ℓ+1) − 1 = 5.
+
+The smooth-branch upper bound becomes:
+
+ε ≤ ω² r_s² / 5.
+
+For characteristic ringdown frequencies satisfying ω r_s ≪ 1, the
+resulting ε remains parametrically suppressed, demonstrating that smooth
+nonlinear solutions naturally reproduce Kerr-like behavior without
+fine-tuning.
+
+## Appendix A: Derivation of the Liouville-Transformed Radial Operator
+
+Starting from the phase perturbation equation:
+
+d/dr ( r² Ψ² θ\'(r) ) + \[ ω² r² Ψ² − ℓ(ℓ+1) Ψ² \] θ(r) = 0.
+
+Define the transformed variable u(r) = r Ψ(r) θ(r). Substitution removes
+the first-derivative term and yields Schrödinger form:
+
+u\'\'(r) + \[ ω² − V_ℓ(r) \] u(r) = 0.
+
+The envelope contribution to the potential becomes:
+
+V_env(r) = −1/r² + (1/2) χ\'\'(r), χ = ln C = 2 ln Ψ.
+
+Thus the curvature of the log-envelope emerges uniquely from operator
+normalization and is not phenomenologically imposed.
+
+## Appendix B: Schematic Envelope Curvature Illustration
+
+Figure B1 illustrates representative smooth (δ ≥ 0) and destabilizing (δ
+\< 0) envelope profiles near the horizon.
+
+![](media/image1.png){width="5.0in" height="3.75in"}
